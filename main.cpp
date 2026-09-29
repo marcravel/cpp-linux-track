@@ -1,9 +1,9 @@
 #include <iostream>
-#include "Rectangle.h"
+#include "util.h"
 
 
 int main() {
     Rectangle(10, 15);
-
+    Person("John", "Doe");
     return 0;
 }
