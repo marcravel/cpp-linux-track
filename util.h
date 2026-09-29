@@ -1,3 +1,6 @@
+#include <iostream>
+#include <string>
+
 class Rectangle {
   private:
     /* data */
@@ -21,20 +24,9 @@ class Person {
     Person(std::string fName, std::string lName);
     ~Person();
 
-    void printFullName() {
-      std::cout << "Full Name: " << this->firstName << " " << this->lastName << std::endl; 
-    }
-
-    void setAge(int age) {
-      this->age = age;
-      std::cout << "Age set!" << std::endl;
-    }
-
-    void setProf(std::string prof) {
-      this->profession = prof;
-      std::cout << "Profession set!" << std::endl;
-    }
-
+    void printFullName();
+    void setAge(int age);
+    void setProf(std::string prof);
 };
 
 

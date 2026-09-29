@@ -1,0 +1,10 @@
+# Build artifacts
+/a.out
+/main
+*.o
+*.out
+/build/
+/cmake-build-*/
+
+# Local editor settings
+.vscode/
